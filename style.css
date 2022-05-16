@@ -33,9 +33,6 @@ h1 {
     align-self: center;
     width: 20rem;
 }
-#company-logo:active :root{
-    color-scheme: light;
-}
 #credits-container{
     width:100%;
     display:flex;
@@ -54,9 +51,7 @@ h1 {
     /* height: 20rem; */
     width: 10rem;
     padding-bottom: 1rem;
-    /* border: 2px solid rgba(255, 255, 255, 0.05); */
 }
-
 .dev-photo{
     object-fit: cover;
     width: inherit;
