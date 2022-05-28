@@ -1,0 +1,65 @@
+:root {
+    color-scheme: dark;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    background: linear-gradient(to left, #a51e1e, #3b59f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#description-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:space-evenly;
+    /* align-self: center; */
+    text-align: center;
+}
+#company-description {
+    color: #6a82f6;
+    font-size: 1.1rem;
+    width: 50vw;
+    line-height: 1.5;
+}
+#company-logo {
+    align-self: center;
+    width: 20rem;
+}
+#credits-container{
+    width:100%;
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+}
+.developers{
+    background-color:rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* height: 20rem; */
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+.dev-photo{
+    object-fit: cover;
+    width: inherit;
+    height: 9rem;
+}
+.dev-name{
+    line-height: 3;
+}
+.dev-description{
+    font-size: 0.8rem;
+}
