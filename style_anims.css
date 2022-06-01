@@ -15,12 +15,20 @@
   margin-top: 8%;
 }
 
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  margin-top: -15px;
+}
+
 .inner {
   overflow: hidden;
 }
 
 .inner img {
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 .inner:hover img {
