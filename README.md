@@ -27,7 +27,7 @@ Members of the team tester will search for grammatical mistakes , bugs and error
 
 > replit
 
-https://replit.com/join/cghbusvsur-mrbluebird 
+https://replit.com/join/qytxfupnmc-aniketsharmagit
 
 >discord
 
