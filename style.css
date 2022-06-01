@@ -1,4 +1,13 @@
-html, body {
-    height: 100%;
-    width: 100%;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;800;900&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Inter, system-ui;
+}
+
+.rs {
+  font-family: "Roboto Slab", system-ui;
+}

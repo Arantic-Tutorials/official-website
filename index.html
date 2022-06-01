@@ -15,46 +15,53 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="bg-dark">
+  <body class="bg-dark text-light">
+    <div class="container">
     <!-- Introduction -->
 
-    <section class="home py-5 mb-5">
+    <section class="home mb-5">
       <div class="container">
-        <h2
-          style="
-            background: linear-gradient(90deg, #ea5454 39.39%, #bd5b4e 49.78%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
-          "
-          class="text-center fw-bold text-light py-4"
-        >
-          Welcome to Arantic Tutorials!
-        </h2>
-        <img
-          src="images/logo2.png"
-          style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 38vh;
-          "
-          alt="site logo"
-        />
-        <p class="text-center text-light py-4 p-2">
-          Arantic Tutorials is founded in 2022, Our goal is to teach you
-          programming through online tutorials and make you from Zero to Hero!
-          We are planning to launch our first tutorial by June 2022, Stay tuned
-          for it!
-        </p>
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+
+    <!-- Arantic Tutorials Home Logo -->
+          
+      <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img src="images/logo2.png" width="45" />
+      </a>
+
+    <!-- Navigation Bar -->
+          
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#TutorialSections" class="nav-link px-2 link-light">Tutorials</a></li>
+        <li><a href="#contact" class="nav-link px-2 link-light">Contact</a></li>
+        <li><a href="#team" class="nav-link px-2 link-light">Team</a></li>
+      </ul>
+<!-- imma test it  -->
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-primary me-2"><a class="text-decoration-none text-light" href="#TutorialSections">Tutorials</a></button>
+        <button type="button" class="btn btn-primary">Contact</button>
+      </div>
+    </header>
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/study.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" style="min-width: 300px">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3 rs">Arantic Tutorials</h1>
+        <h6 style="line-height: 30px;" class="mb-4">To make learning easier and fun, To learn things faster, We are here to help you! We are going to launch our first tutorial by June/July 2022, You don't even need to login or sign up to view tutorials!</h6>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-danger btn-lg px-4 me-md-2"><a href="#tutorials" class="text-decoration-none text-light">Tutorials</a></button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+      </div>
       </div>
     </section>
 
     <!-- Teams -->
-    <!-- IMPLEMENT: Add a github link to each dev card when clicked / add card animations -->
 
-    <section class="team">
+    <section class="team py-5">
       <div class="container">
         <h2
           style="
@@ -85,14 +92,14 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-light text-center fw-bold">
+                  <h5 class="card-title text-light text-center fw-bold rs">
                     Aryan Tripathi
                   </h5>
                   <h6
                     class="card-subtitle mb-2 text-center"
                     style="color: #c2c4c3"
                   >
-                    Founder
+                    Founder & Co-CEO
                   </h6>
                   <p class="card-text text-light text-center">
                     Founded Arantic Tutorials in 2022 Lead Developer of the
@@ -119,7 +126,7 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-light text-center fw-bold">
+                  <h5 class="card-title text-light text-center fw-bold rs">
                     Aniket Sharma
                   </h5>
                   <h6
@@ -150,7 +157,7 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-light text-center fw-bold">
+                  <h5 class="card-title text-light text-center fw-bold rs">
                     Atiksh Sharma
                   </h5>
                   <h6
@@ -184,7 +191,7 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-light text-center fw-bold">
+                  <h5 class="card-title text-light text-center fw-bold rs">
                     South Valley
                   </h5>
                   <h6
@@ -215,7 +222,7 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title text-light text-center fw-bold">Sai</h5>
+                  <h5 class="card-title text-light text-center fw-bold rs">Sai</h5>
                   <h6
                     class="card-subtitle mb-2 text-center"
                     style="color: #c2c4c3"
@@ -236,7 +243,7 @@
 
     <!-- Tutorials -->
     
-    <section class="team">
+    <section class="tutorials">
       <div class="container">
         <h2
           style="
@@ -246,12 +253,11 @@
             background-clip: text;
             text-fill-color: transparent;
           "
-          class="text-center fw-bold py-4"
+          class="text-center fw-bold py-4 rs" id="TutorialSections"
         >
           Tutorials
         </h2>
-
-        <div class="row">
+        <div class="row justify-content-md-center">
         <div class="col mb-4">
               <div class="card py-5 p-3 shadow-lg bg-dark" style="width: 18rem">
                 <div class="inner">
@@ -280,6 +286,7 @@
 
     <!-- Footer -->
 
+    </div>
     <footer class="text-light bg-dark shadow-lg py-2">
       <br />
       <h5 class="text-center">© All rights reserved by Arantic Tutorials</h5>
