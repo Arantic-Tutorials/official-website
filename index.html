@@ -15,49 +15,72 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
+
   <body class="bg-dark text-light">
     <div class="container">
-    <!-- Introduction -->
 
-    <section class="home mb-5">
-      <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      <section class="home mb-5">
+        <div class="container">
+          <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
 
-    <!-- Arantic Tutorials Home Logo -->
-          
-      <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <img src="images/logo2.png" width="45" />
-      </a>
+        <!-- Arantic Tutorials Home Logo -->
+              
+            <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <img src="images/logo2.png" width="45" />
+            </a>
 
-    <!-- Navigation Bar -->
-          
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#TutorialSections" class="nav-link px-2 link-light">Tutorials</a></li>
-        <li><a href="#contact" class="nav-link px-2 link-light">Contact</a></li>
-        <li><a href="#team" class="nav-link px-2 link-light">Team</a></li>
-      </ul>
-<!-- imma test it  -->
-      <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-primary me-2"><a class="text-decoration-none text-light" href="#TutorialSections">Tutorials</a></button>
-        <button type="button" class="btn btn-primary">Contact</button>
-      </div>
-    </header>
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="images/study.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" style="min-width: 300px">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3 rs">Arantic Tutorials</h1>
-        <h6 style="line-height: 30px;" class="mb-4">To make learning easier and fun, To learn things faster, We are here to help you! We are going to launch our first tutorial by June/July 2022, You don't even need to login or sign up to view tutorials!</h6>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-danger btn-lg px-4 me-md-2"><a href="#tutorials" class="text-decoration-none text-light">Tutorials</a></button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <!-- Navigation Bar -->
+                
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="#TutorialSection" class="nav-link px-2 link-light">Tutorials</a></li>
+              <li><a href="#contact" class="nav-link px-2 link-light">Contact</a></li>
+              <li><a href="#TeamSection" class="nav-link px-2 link-light">Team</a></li>
+            </ul>
+
+          <!-- 2nd Navigation Bar -->
+
+            <div class="col-md-3 text-end">
+              <button type="button" class="btn btn-primary me-2">
+                <a class="text-decoration-none text-light" href="#TutorialSection">
+                  Tutorials
+                </a>
+              </button>
+              <button type="button" class="btn btn-primary">
+                Contact
+              </button>
+            </div>
+          </header>
+
+      <!-- Introduction -->
+
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="images/study.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" style="min-width: 300px">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3 rs">Arantic Tutorials</h1>
+              <h6 style="line-height: 30px;" class="mb-4">
+                To make learning easier and fun, To learn things faster, We are here to help you! We are going to launch our first tutorial by June/July 2022, You don't even need to login or sign up to view tutorials!
+              </h6>
+
+            <!-- 3rd Navigation Bar -->
+
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">
+                  <a href="#TutorialSection" class="text-decoration-none text-light">
+                    Tutorials
+                  </a>
+                </button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                  Default
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- Teams -->
 
@@ -71,21 +94,22 @@
             background-clip: text;
             text-fill-color: transparent;
           "
-          class="text-center fw-bold py-4"
+          class="text-center fw-bold py-4" id="TeamSection"
         >
           Arantic Tutorials Team
         </h2>
-
-        <!-- 1st Row -->
-        <!--  Aryan Tripathi  -->
         <div class="Dev-Cards">
+          <!-- 1st Row -->
           <div class="row">
+            
+            <!-- Aryan Tripathi -->
+
             <div class="col-md-4 mb-4">
               <div class="card shadow-lg bg-dark" style="width: 18rem">
                 <div class="inner">
                   <a href="https://github.com/MrBlueBird2" target="_blank">
                     <img
-                      src="images/devs/aryan.jpg"
+                      src="images/devs/aryan.png"
                       class="card-img-top"
                       alt="Aryan Tripathi"
                     />
@@ -253,7 +277,7 @@
             background-clip: text;
             text-fill-color: transparent;
           "
-          class="text-center fw-bold py-4 rs" id="TutorialSections"
+          class="text-center fw-bold py-4 rs" id="TutorialSection"
         >
           Tutorials
         </h2>
