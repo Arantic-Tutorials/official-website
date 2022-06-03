@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;800;900&display=swap");
 
 html,
 body {
-=======
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;800;900&display=swap');
-
-html, body {
->>>>>>> 2bbeaa8c24e0f5e79a1dc0b6f334cecdcae110a4
   height: 100%;
   width: 100%;
   font-family: Inter, system-ui;
@@ -17,8 +10,4 @@ html, body {
 
 .rs {
   font-family: "Roboto Slab", system-ui;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2bbeaa8c24e0f5e79a1dc0b6f334cecdcae110a4
