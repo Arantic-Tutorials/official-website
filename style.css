@@ -11,3 +11,16 @@ body {
 .rs {
   font-family: "Roboto Slab", system-ui;
 }
+.col-md-4.mb-4{
+  width: max-content;
+}
+.Dev-Cards{
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  
+
+}
