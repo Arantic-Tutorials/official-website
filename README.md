@@ -11,7 +11,7 @@ This is the official website for Arantic tutorials
 >team builders
 - Aryan Tripathi
 - Edge Tech Coder
-- Aniket sharma
+- Ibrahim Nadeem
 
 ---
 
